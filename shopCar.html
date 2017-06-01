@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/shopCar.css">
+		<script src="libs/require.js"></script>
+		<script type="text/javascript">
+			require(["module/shopCar"]);
+		</script>
+	</head>
+
+	<body>
+		<div class="goods-header"></div>
+
+		<div class="cart">
+			<div class="wrap">
+				<h2>我的购物车</h2>
+				<div class="cart-alert">
+					<div class="cart-header">
+						<table class="cart-table">
+							<tbody>
+								<tr>
+									<th class="cart-t-check"><label><input type="checkbox" class="chkAll" checked="checked">全选</label></th>
+									<th class="cart-t-info">商品信息</th>
+									<th class="cart-t-ub" style="width:75px;">悠币</th>
+									<th class="cart-t-price">单价</th>
+									<th class="cart-t-num">购买数量</th>
+									<th class="cart-t-total">合计</th>
+									<th class="cart-t-spec">规格</th>
+									<th class="cart-t-opera">操作</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="cart-list" id="theInsulationCan">
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!--尾部开始-->
+		<div class="footer-service"></div>
+		<div class="goods-footer"></div>
+		<!--尾部结束-->
+	</body>
+
+</html>

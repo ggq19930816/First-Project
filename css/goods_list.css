@@ -1,0 +1,137 @@
+.goods-nav .wrap .menu:hover .goods-nav-list {
+  display: block;
+}
+
+.goods-nav .wrap .goods-nav-list {
+  top: 38px;
+  display: none;
+}
+
+.goods-nav .wrap .goods-nav-title {
+  float: left;
+}
+
+.goods-nav .wrap .goods-nav-items {
+  overflow: hidden;
+  float: left;
+  width: 1020px;
+  height: 37px;
+  line-height: 37px;
+  border-bottom: 1px solid #008842;
+  z-index: 20;
+}
+
+.goods-nav .wrap .goods-nav-items ul li {
+  float: left;
+  width: 115px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrap .select {
+  width: 1200px;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+.wrap .filter {
+  padding: 5px 10px;
+  background: #eaeaea;
+}
+
+.wrap .filter .filter_sort a {
+  display: block;
+  float: left;
+  height: 18px;
+  line-height: 18px;
+  margin-left: -1px;
+  padding: 5px 10px;
+  border: 1px solid #c7c7c7;
+  background: #fff;
+}
+
+.wrap .goods_list {
+  overflow: hidden;
+  zoom: 1;
+  margin-left: -13px;
+}
+
+.wrap .goods_list li {
+  float: left;
+  position: relative;
+  width: 290px;
+  margin: 15px 0 0 13px;
+  background: #fff;
+}
+
+.wrap .goods_list li:hover .p-buy {
+  display: block;
+}
+
+.wrap .goods_list li .p_img {
+  position: relative;
+  width: 290px;
+  height: 290px;
+}
+
+.wrap .goods_list li .p_info {
+  padding: 10px;
+  height: 48px;
+}
+
+.wrap .goods_list li .p_info .p_name {
+  height: 16px;
+  margin-bottom: 10px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wrap .goods_list li .p_info .p_name font {
+  color: red;
+}
+
+.wrap .goods_list li .p_info .p_price {
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.wrap .goods_list li .p_info .p_price .price {
+  font-size: 18px;
+  color: #e7380d;
+  vertical-align: middle;
+}
+
+.wrap .goods_list li .p-buy {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 68px;
+  width: 270px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  background: #fff \9;
+}
+
+.wrap .goods_list li .p-buy span {
+  display: block;
+  width: 270px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.wrap .goods_list li .p-buy a {
+  display: block;
+  width: 180px;
+  height: 25px;
+  margin: 0 auto;
+  line-height: 25px;
+  color: #fff;
+  background: #008742;
+  border-radius: 4px;
+}

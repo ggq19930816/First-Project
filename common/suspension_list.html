@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<div class="header clearfix header_fixed">
+			<div class="wrap">
+				<div class="logo">
+					<a href="index.html"></a>
+				</div>
+				<!--搜索 开始-->
+				<div class="search" style="position:relative;">
+					<div class="search-bar clearfix">
+						<input type="text" id="keyword" name="keyword" class="search-input" value="输入商品名／编号／拼音" onfocus=" if (this.value == '输入商品名／编号／拼音') {this.value = '';this.style.color = '#000';} " onblur=" if (this.value == '') {this.value = '输入商品名／编号／拼音';this.style.color = '#999';} " style="color: rgb(153, 153, 153);">
+						<input class="search-btn" type="submit" value="搜索">
+					</div>
+					<ul class="hide" id="shelper" style="display: none;"></ul>
+					<div class="search-keywords" id="keywords">
+						<a href="javascript:;" class="hot" target="_blank">加州樱桃</a>
+						<a href="javascript:;" target="_blank">脐橙</a>
+						<a href="javascript:;" class="hot" target="_blank">奇异果</a>
+						<a href="javascript:;" target="_blank">小龙虾</a>
+						<a href="javascript:;" class="hot" target="_blank">谷饲</a>
+						<a href="javascript:;" target="_blank">家佳康</a>
+						<a href="javascript:;" class="hot" target="_blank">三文鱼</a>
+						<a href="javascript:;" target="_blank">贝类</a>
+						<a href="javascript:;" class="hot" target="_blank">鳕鱼</a>
+						<a href="javascript:;" target="_blank">进口水</a>
+						<a href="javascript:;" target="_blank">五常米</a>
+						<a href="javascript:;" class="hot" target="_blank">优形鸡购肉</a>
+						<a href="javascript:;" target="_blank">粽子</a>
+						<a href="" target="_blank"></a>
+					</div>
+				</div>
+				<!--购物车 开始-->
+				<div class="shopping-cart">
+					<dl>
+						<dt class="shopping-btn"><a href="http://cart.yiguo.com/"> <span class="totleNum"><b>0</b></span><b class="totlePrice">0.0</b></a></dt>
+						<dd class="shopping-list">
+							<div class="spacer"></div>
+							<div class="nogoods" style="">
+								购物车中还没有商品，赶紧选购吧！
+							</div>
+							<div class="goods" style="display: none;">
+								<p id="deliveryType" style="display:none;">满100元包邮！</p>
+								<ul></ul>
+								<div class="price-total">
+									<div><span class="totleNum">共<b>0</b>件商品</span><span>共计<b class="totlePrice">0.0</b></span></div>
+									<div>
+										<a href="http://cart.yiguo.com/" class="settleup">去购物车</a>
+									</div>
+								</div>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<!--购物车 结束-->
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,153 @@
+.wrap {
+  width: 1200px;
+  padding-top: 50px;
+}
+
+.wrap .login-left {
+  float: left;
+}
+
+.wrap .login-right {
+  float: left;
+  margin-left: 79px;
+}
+
+.wrap .login-right .login-main {
+  width: 308px;
+  padding: 30px 20px 20px;
+  background-color: #fff;
+  border: 1px solid #e3e6e0;
+}
+
+.wrap .login-right .login-main .login-message {
+  position: relative;
+  background: #FFEBEB none repeat scroll 0 0;
+  border: 1px solid #E4393C;
+  padding: 3px 10px 3px 40px;
+  line-height: 18px;
+  min-height: 18px;
+  color: #E4393C;
+  margin-bottom: 10px;
+}
+
+.wrap .login-right .login-main p {
+  margin-bottom: 20px;
+  font: 12px Arial, "SimSun";
+  color: #878787;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap .login-right .login-main p strong {
+  color: #262626;
+  font: 18px/1 "Microsoft YaHei";
+}
+
+.wrap .login-right .login-main p span {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.wrap .login-right .login-main p .input-phone-icon {
+  position: absolute;
+  left: 1px;
+  top: 1px !important;
+  _top: 3px !important;
+  width: 40px;
+  height: 38px;
+  background-image: url("../images/bg_input.png");
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+}
+
+.wrap .login-right .login-main p .input-key-icon {
+  position: absolute;
+  left: 1px;
+  top: 1px !important;
+  _top: 3px !important;
+  width: 40px;
+  height: 38px;
+  background-image: url("../images/bg_input.png");
+  background-repeat: no-repeat;
+  background-position: 0 -180px;
+}
+
+.wrap .login-right .login-main p input {
+  border: 1px solid #c1c1c1;
+  background-color: #fff;
+  height: 38px;
+  vertical-align: middle;
+  padding-left: 50px;
+  width: 254px;
+  font: 14px/38px "Microsoft YaHei";
+}
+
+.wrap .login-right .login-main p label input {
+  margin-right: 12px;
+  height: 14px;
+  width: 14px;
+  vertical-align: -1px;
+}
+
+.wrap .login-right .login-main p .btn-green {
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  font: 18px/50px "Microsoft YaHei";
+  background: #008842;
+  width: 306px;
+}
+
+.wrap .login-right .login-main p .btn-green:hover {
+  background: #09964e;
+}
+
+.wrap .login-right .login-main p .checkNumber {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: 1px solid #b6b6b6;
+  position: relative;
+  left: 0;
+  top: 0;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+}
+
+.wrap .login-right .login-main .otherLogin .qq i {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-position: -60px -200px;
+  margin-right: 17px;
+}
+
+.wrap .login-right .login-main .otherLogin .sina i {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-position: -160px -200px;
+  margin-right: 17px;
+}
+
+.wrap .login-right .login-main .otherLogin .anyue i {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-position: -260px -200px;
+}
+
+.login-footer {
+  width: 100%;
+  height: 28px;
+  background: #f7f8f8;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>易果网</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="libs/require.js"></script>
+	<script type="text/javascript">
+		require(["module/login"]);
+	</script>
+
+	<body>
+		<div class="header"></div>
+		<div class="login">
+			<div class="wrap">
+				<div class="login-left">
+					<img src="images/9288707397001893.jpg">
+				</div>
+				<div class="login-right">
+					<div class="login-main">
+						<p id="welcomeLogin">
+							<strong>欢迎登录</strong>
+							<span>还没有账号？<a class="green" href="register.html">立即注册</a></span>
+						</p>
+						<!--<p class="login-message"></p>-->
+						<p>
+							<span class="input-phone-icon">&nbsp;</span>
+							<input class="input input-user" id="userName" placeholder="邮箱/账号/已验证手机" type="text" value="">
+						</p>
+						<p>
+							<span class="input-key-icon">&nbsp;</span>
+							<input class="input input-password" id="pwd" placeholder="密码" type="password">
+						</p>
+						<p>
+							<span class="input-key-icon">&nbsp;</span>
+							<input class="input input-key" id="VerifyCode" name="VerifyCode" placeholder="验证码" style="width:100px" type="text" value="">
+							<span class="checkNumber" id="checkNumber">1234</span>
+							<a href="javascript:void(0)" class="gray" id="changeNumber">换一张</a>
+						</p>
+						<p>
+							<label><input id="userRemeber" type="checkbox" class="userRemeber">自动登录</label>
+							<span> <a class="gray" href="/FindPwd">忘记登录密码？</a></span></p>
+						<p>
+							<a id="btnLogin" href="javascript:void(0)" class="btn-green">登 &nbsp; 录</a>
+						</p>
+						<p>第三方登录</p>
+						<div class="otherLogin">
+							<a href="javascript:;" class="qq"><i></i></a>
+							<a href="javascript:;" class="sina"><i></i></a>
+							<a href="javascript:;" class="anyue"><i></i></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="login-footer"></div>
+		<div class="footer"></div>
+	</body>
+
+</html>

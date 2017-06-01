@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    color: #444;
+}
+header {
+    height: 70px;
+    width: 100%;
+    background: #e0e0e0;
+}
+header .logo {
+    height: 50px;
+    width: 145px;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    float: left;
+}
+header span {
+    font: 28px/1 Microsoft YaHei;
+    color: #008842;
+    position: absolute;
+    margin-left: 95px;
+    top: 21px;
+    white-space: nowrap;
+}
+input {
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    height: 38px;
+    vertical-align: middle;
+    padding-left: 14px;
+    width: 290px;
+    font: 14px/38px "Microsoft YaHei";
+}
+.register-box {
+    height: 728px;
+    width: 100%;
+    background: #f7f8f8;
+    position: relative;
+    p {
+        margin-bottom: 29px;
+        font: 14px Arial,"Microsoft YaHei";
+    }
+    #register-tip {
+        float: right;
+        margin: 37px 5% 0 0;
+        font: 14px/1 "Microsoft YaHei";
+        word-break: break-all;
+        word-wrap: break-word;
+        a {
+            color: #ef760a;
+            text-decoration: underline;
+        }
+    }
+    .register-artcle {
+        top: 65px;
+        position: relative;
+        height: 634px;
+        width: 1200px;
+        background: #fff;
+        margin: 0 auto;
+        border: 1px solid #c4dfb1;
+        .register-artcle-left {
+            width: 702px;
+            height: 542px;
+            padding-top: 40px;
+            .input-short {
+                width: 147px;
+            }
+            p {
+                .pass-tip i {
+                    display: inline-block;
+                    width: 17px;
+                    height: 17px;
+                    vertical-align: middle;
+                    margin-right: 9px;
+                    background-position: -20px -200px;
+                    background-image: url("../images/bg_login.png");
+                    margin-left: 20px;
+                }
+            }
+            .checkNumber {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                border: 1px solid #b6b6b6;
+                position: relative;
+                left: 10px;
+                top: 0;
+                line-height: 22px;
+                text-align: center;
+                color: white;
+            }
+            a {
+                margin-left: 20px;
+            }
+        }
+        .register-seccode {
+            width: 147px;
+        }
+        .register-artcle-logo {
+            position: absolute;
+            right: 150px;
+            top: 116px;
+        }
+        .field-name {
+            display: inline-block;
+            width: 220px;
+            text-align: right;
+            padding-right: 20px;
+        }
+    }
+}
+.register-artcle .agreement a {
+    color: #008842;
+}
+#tab1chk {
+    margin-right: 9px;
+    height: 14px;
+    width: 14px;
+    vertical-align: -1px;
+}
+.register-artcle .register-finish {
+    padding-left: 240px;
+}
+.register-artcle .register-finish a {
+    width: 306px;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+    background-color: #008842;
+    &:hover {
+        background: #09964e;
+    }
+}
+#register-pwd,
+#register-pwd-again,
+#register-inviteCode {
+    background-image: url("../images/bg_input.png");
+    background-repeat: no-repeat;
+    background-position: 276px -70px;
+}
+#register-phone {
+    background-image: url("../images/bg_input.png");
+    background-repeat: no-repeat;
+    background-position: 276px -30px;
+}
+.footer {
+    height: 421px;
+    width: 100%;
+    background: #e0e0e0;
+    zoom: 1;
+    clear: both;
+    position: relative;
+    border-top: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+.footer .warp {
+    margin: 50px auto 0;
+    padding-top: 30px;
+    width: 1200px;
+}
+.footer dl {
+    width: 190px;
+    float: left;
+    margin-left: 50px;
+    display: inline;
+}

@@ -1,0 +1,470 @@
+body {
+  background: #f7f8f8;
+}
+
+.goods-nav {
+  z-index: 500;
+  position: relative;
+}
+
+.goods-nav .wrap {
+  position: relative;
+}
+
+.goods-nav .wrap .goods-nav-title {
+  width: 180px;
+  height: 38px;
+  position: relative;
+  text-align: center;
+  background: #008842;
+}
+
+.goods-nav .wrap .goods-nav-title a {
+  overflow: hidden;
+  font: bold 15px/16px "Microsoft YaHei";
+  color: #fff;
+  display: block;
+  height: 16px;
+  padding: 11px 0;
+}
+
+.goods-nav .wrap .goods-nav-list {
+  position: absolute;
+  height: 462px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 165px;
+  height: 24px;
+  padding: 9px 0 9px 15px;
+  font: normal 14px/24px "Microsoft YaHei";
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a s {
+  display: block;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a i {
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  background: url("../images/nav-icon.png") no-repeat 0 0;
+  transition: all 0.4s ease-in;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon2 {
+  background-position: -24px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon3 {
+  background-position: -48px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon4 {
+  background-position: -72px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon5 {
+  background-position: -96px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon6 {
+  background-position: -120px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon7 {
+  background-position: -144px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon8 {
+  background-position: -168px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon9 {
+  background-position: -192px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon10 {
+  background-position: -216px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item h3 a .goods-icon11 {
+  background-position: -240px 0;
+}
+
+.goods-nav .wrap .goods-nav-list .item .sub-item {
+  z-index: 3;
+  display: none;
+  position: absolute;
+  top: -38px;
+  left: 180px;
+  width: 215px;
+  height: 464px;
+  padding: 17px 20px;
+  border: 1px solid #bbb;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.goods-nav .wrap .goods-nav-list .item .sub-item h4 {
+  margin-bottom: 10px;
+  font: normal 18px "Microsoft YaHei";
+  text-decoration: underline;
+}
+
+.goods-nav .wrap .goods-nav-list .item .sub-item .sub-list a {
+  display: inline-block;
+  line-height: 25px;
+  margin-right: 30px;
+  color: #686868;
+}
+
+.goods-nav .wrap .goods-nav-list .item .sub-item .sub-list a:hover {
+  color: #008842;
+}
+
+.goods-nav .wrap .goods-nav-list .item .sub-item .goods-logo {
+  position: absolute;
+  bottom: 10px;
+}
+
+.goods-nav .wrap .goods-nav-list .flow h3 a {
+  z-index: 78;
+  padding: 8px 0 8px 15px;
+  background: rgba(255, 255, 255, 0.95);
+  background: #fff \9;
+  border: 1px solid #bbb;
+  border-right: 0;
+}
+
+.goods-nav .wrap .goods-nav-list .flow h3 i {
+  margin-left: 7px;
+  transition: all 0.2s ease-in;
+}
+
+.goods-nav .wrap .goods-nav-list .flow h3 s {
+  position: absolute;
+  top: 7px;
+  right: 18px;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  top: -38px;
+  
+}
+
+.banner .banner-images {
+	margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.banner .banner-images a {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  transform: scaleX(1.1) scaleY(1.1);
+  transition: transform 3.5s linear;
+}
+
+.banner .banner-images .change-banner {
+  transform: scaleX(1) scaleY(1);
+}
+
+.banner .banner-btn a {
+  opacity: 0;
+  z-index: 999;
+  width: 40px;
+  height: 100px;
+  background: url("../images/banner-btn.png") no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.banner .banner-btn .prev {
+  left: 0;
+  background-position: top left;
+}
+
+.banner .banner-btn .next {
+  right: 0;
+  background-position: top right;
+}
+
+.banner .b-dot {
+  position: absolute;
+  bottom: 12px;
+  left: 43%;
+  height: 12px;
+  zoom: 1;
+  z-index: 400;
+}
+
+.banner .b-dot ul .on {
+  color: #5aaa16;
+  background: #5aaa16;
+}
+
+.banner .b-dot ul li {
+  overflow: hidden;
+  float: left;
+  width: 12px;
+  height: 12px;
+  line-height: 10px;
+  color: #b5b2a8;
+  background: #b5b2a8;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-indent: 100000000px;
+}
+
+.active-item {
+  margin-top: -25px;
+}
+
+.active-item ul {
+  margin-left: -12px;
+  margin-top: 10px;
+  padding-top: 7px;
+}
+
+.active-item ul li {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 290px;
+  height: 290px;
+  margin: 0 0 10px 13px;
+}
+
+.active-item ul li:hover {
+  box-shadow: 0 0 7px #444;
+}
+
+.active-item ul a p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 270px;
+  height: 57px;
+  line-height: 25px;
+  margin: 10px;
+  color: #575757;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.active-item ul a p b {
+  display: block;
+  font: bold 22px "Microsoft YaHei";
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.market {
+  clear: both;
+  position: relative;
+  padding-top: 18px;
+}
+
+.market .market-title {
+  position: relative;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+
+.market .market-title h2 {
+  float: left;
+  height: 32px;
+  font: bold 18px "Microsoft YaHei";
+}
+
+.market .market-title h2 a {
+  color: #fc5f3c;
+}
+
+.market .market-title h2 i {
+  display: inline-block;
+  width: 31px;
+  height: 18px;
+  margin-right: 10px;
+  padding: 10px 7px 4px;
+  color: #fff;
+  font: bold 14px "Microsoft YaHei";
+  vertical-align: text-bottom;
+  background: url("../images/market-tit-icon.png") no-repeat left top;
+}
+
+.market .market-title span {
+  float: right;
+}
+
+.market .market-title span a:after {
+  content: "|";
+  padding: 0 7px;
+}
+
+.market .market-title span a.last:after {
+  content: "";
+  padding: 0;
+}
+
+.market .market-title span a:hover {
+  color: #4e4e4e;
+  text-decoration: underline;
+}
+
+.market .market-content .market-side {
+  float: left;
+  width: 275px;
+  height: 462px;
+}
+
+.market .market-content .market-side a {
+  display: block;
+}
+
+.market .market-content .market-main {
+  position: relative;
+  float: left;
+  background: #fff;
+  width: 924px;
+  height: 462px;
+  border-top: 1px solid #d5d5d5;
+  border-left: 1px solid #d5d5d5;
+}
+
+.market .market-content .market-main a {
+  display: block;
+  transition: transform 0.2s linear;
+}
+
+.market .market-content .market-main a:hover {
+  transform: translateX(5px);
+}
+
+.market .market-content .market-main ul li {
+  float: left;
+  overflow: hidden;
+  width: 230px;
+  height: 230px;
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.market .market-content .market-main ul .wide {
+  width: 461px;
+}
+
+.market .market-content .market-main .col1 {
+  float: left;
+  overflow: hidden;
+  width: 234px;
+  height: 383px;
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.market .market-content .market-main .col2 {
+  width: 442px;
+  float: left;
+  overflow: hidden;
+}
+
+.market .market-content .market-main .col2 li {
+  width: 220px;
+  float: left;
+  overflow: hidden;
+  height: 191px;
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  background: #fff;
+}
+
+.market .market-content .market-main .col3 {
+  float: left;
+  overflow: hidden;
+  width: 246px;
+  height: 461px;
+  border-bottom: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+}
+
+.market .market-content .market-main .market-logo-list {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 654px;
+  height: 55px;
+  padding: 11px;
+  _padding: 10px 11px;
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  background: #fff;
+}
+
+.market .market-content .market-main .market-logo-list a {
+  float: left;
+  margin: 0 14px;
+}
+
+.market02 .market-title h2 i {
+  background-position: -46px 0;
+}
+
+.market03 .market-title h2 i {
+  background-position: -92px 0;
+}
+
+.market04 .market-title h2 i {
+  background-position: -138px 0;
+}
+
+.market05 .market-title h2 i {
+  background-position: -184px 0;
+}
+
+.market06 .market-title h2 i {
+  background-position: -230px 0;
+}
+
+.market07 .market-title h2 i {
+  background-position: -276px 0;
+}
+
+.market08 .market-title h2 i {
+  background-position: -322px 0;
+}
+
+.market09 .market-title h2 i {
+  background-position: -368px 0;
+}
+
+.market10 .market-title h2 i {
+  background-position: -414px 0;
+}

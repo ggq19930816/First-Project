@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>易果网</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="libs/require.js"></script>
+	<script type="text/javascript">
+		require(["module/register"]);
+	</script>
+
+	<body>
+		<div class="header"></div>
+		<div id="register-box" class="register-box">
+			<div id="register-tip">我已经注册，现在就
+				<a href="login.html">登录</a>
+			</div>
+			<div class="register-artcle">
+				<div class="register-artcle-left">
+					<div>
+						<p>
+							<span class="field-name">图形验证码</span>
+							<input type="text" value="" placeholder="图形验证码" class="input-short" id="imageNumber">
+							<span class="checkNumber" id="checkNumber">1234</span>
+							<a href="javascript:;" id="changeCheckNumber">换一张</a>
+							<span class="pass-tip"></span>
+						</p>
+					</div>
+					<div>
+						<p>
+							<span class="field-name">手机号</span>
+							<input value="" placeholder="请输入您的手机号" id="register-phone">
+							<span class="pass-tip"></span>
+						</p>
+					</div>
+					<div>
+						<p>
+							<span class="field-name">手机验证码</span>
+							<input value="" placeholder="手机验证码" class="input-short">
+						</p>
+					</div>
+					<div>
+						<p>
+							<span class="field-name" class="input-key">设置密码</span>
+							<input value="" placeholder="6-20位字母、符号或数字" id="register-pwd">
+						</p>
+					</div>
+					<div>
+						<p>
+							<span class="field-name" class="input-key">确认密码</span>
+							<input value="" placeholder="再次输入密码" id="register-pwd-again">
+							<span class="pass-tip"></span>
+						</p>
+					</div>
+					<div>
+						<p>
+							<span class="field-name" class="input-key">邀请码</span>
+							<input value="" placeholder="邀请码" id="register-inviteCode">
+						</p>
+					</div>
+					<p class="agreement">
+						<span class="field-name"> </span>
+						<label>
+	               			<input type="checkbox" id="tab1chk" checked="checked" />我已阅读并同意<a href="#">《易果服务协议》</a>
+	               		</label>
+					</p>
+					<p class="register-finish">
+						<a href="javascript:;" class="">立即注册</a>
+					</p>
+
+				</div>
+				<img src="images/register.png" class="register-artcle-logo">
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+
+</html>
